@@ -71,6 +71,11 @@ $ yarn test ou npm run test
   curl --location 'http://localhost:3333/orders/import' \
   --form 'file=@"/C:/NOME_DA_PASTA/data_1.txt"'
   ```
+  **Para o teste foram usados os seguintes arquivos:**
+  ```
+  data_1.txt
+  data_2.txt
+  ```
 
   3. Executar o endpoint de consulta dos pedidos:
   ```bash
